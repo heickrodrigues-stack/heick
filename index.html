@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experimento de Mobilidade e Acessibilidade Urbana</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Inter for readability -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container" aria-label="Navegação Principal">
+            <div class="logo">Mobilidade<span>Acessível</span></div>
+            <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#dados">Tecnologias</a></li>
+                <li><a href="#conteudo">Design Universal</a></li>
+                <li><a href="#fontes">Fontes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container hero-content fade-in">
+                <h1>Cidades para Todos: O Futuro da Mobilidade Urbana</h1>
+                <p>Explore como a tecnologia e o design inclusivo estão transformando nossas ruas em espaços verdadeiramente acessíveis para cada cidadão.</p>
+                <a href="#dados" class="cta-button">Conheça as Tecnologias</a>
+            </div>
+        </section>
+
+        <!-- Seção de Dados (Cards) -->
+        <section id="dados" class="data-section container">
+            <h2 class="section-title fade-in">Tecnologias de Mobilidade</h2>
+            <div class="cards-grid">
+                <article class="card fade-in">
+                    <div class="card-icon" aria-hidden="true">♿</div>
+                    <h3>Rampas Inteligentes</h3>
+                    <p>Sensores IoT monitoram em tempo real o estado das rampas, alertando sobre obstruções e garantindo manutenção proativa em centros urbanos.</p>
+                </article>
+                <article class="card fade-in">
+                    <div class="card-icon" aria-hidden="true">📡</div>
+                    <h3>Sensores de Navegação</h3>
+                    <p>Sistemas de sinalização tátil e sonora integrados a beacons guiam pessoas com deficiência visual com precisão em terminais e calçadas.</p>
+                </article>
+                <article class="card fade-in">
+                    <div class="card-icon" aria-hidden="true">🚌</div>
+                    <h3>Transporte Adaptado</h3>
+                    <p>Frotas inteligentes com elevadores automáticos e aplicativos que informam a acessibilidade das estações em tempo real para o usuário.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção de Conteúdo -->
+        <section id="conteudo" class="content-section">
+            <div class="container fade-in">
+                <div class="content-wrapper">
+                    <div class="content-text">
+                        <h2>A Importância do Design Universal</h2>
+                        <p>O Design Universal não é apenas sobre acessibilidade para alguns, mas sobre funcionalidade para todos. Segundo a <strong>ONU-Habitat</strong>, projetar cidades sob este prisma promove a igualdade e reduz drasticamente a exclusão social.</p>
+                        <p>No Brasil, o Censo 2022 revelou que cerca de <strong>119,9 milhões de pessoas</strong> ainda vivem em ruas sem rampas de acessibilidade. Integrar o design universal desde o planejamento urbano é a chave para reverter esse cenário e construir um futuro mais justo.</p>
+                    </div>
+                    <div class="content-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">14.4M</span>
+                            <span class="stat-label">Pessoas com deficiência no Brasil</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15.2%</span>
+                            <span class="stat-label">Ruas com rampas de acesso</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé / Aba de Créditos -->
+    <footer id="fontes" class="credits-section">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3>Fontes e Referências</h3>
+                    <p>Este projeto é um experimento educativo focado em disseminar conhecimentos sobre mobilidade urbana e acessibilidade digital.</p>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="https://agenciadenoticias.ibge.gov.br/" target="_blank" rel="noopener">IBGE - Censo 2022</a></li>
+                        <li><a href="https://www.w3.org/WAI/" target="_blank" rel="noopener">W3C - Web Accessibility Initiative</a></li>
+                        <li><a href="https://unhabitat.org/" target="_blank" rel="noopener">ONU-Habitat</a></li>
+                        <li><a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm" target="_blank" rel="noopener">Lei Brasileira de Inclusão (LBI)</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Experimento de Mobilidade Urbana. Desenvolvido com foco em Acessibilidade (A11y).</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
